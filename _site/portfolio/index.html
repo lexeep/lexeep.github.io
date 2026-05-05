@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <script>
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+  </script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="site-header">
+  <nav class="header-breadcrumb" aria-label="breadcrumb">
+    <a href="/" class="header-name">Abdulla Almansoori</a>
+    <span class="header-sep" aria-hidden="true">/</span>
+    <a href="/portfolio" class="header-page">
+      Portfolio
+    </a>
+
+  </nav>
+  <button class="theme-toggle" id="theme-toggle" aria-label="toggle dark/light mode" onclick="toggleTheme()">
+    <svg class="toggle-icon sun" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+    <div class="toggle-track" aria-hidden="true">
+      <div class="toggle-dot"></div>
+    </div>
+    <svg class="toggle-icon moon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+</header>
+
+    <main>
+      <h1>This is my portfolio!</h1>
+<p>This is My fwickin portfolio !</p>
+<h2>Fully working user-interface</h2>
+<hr>
+<h2>XYZ Logo</h2>
+<p>![My Logo] (/assets/images/XYZ</p>
+<hr>
+<h2>This website!</h2>
+<p>This website itself is one of my main projects, designed and built from scratch to showcase my work and development progress.It uses a custom colorscheme for a balanced, visually consistent aesthetic, and is built with <a href="https://www.11ty.dev/">11ty (Eleventy)↗</a> using Nunjucks, Markdown, and custom CSS. The focus was on keeping the structure lightweight, modular, and esay to maintain while maintaining a clean and readable design. Check out the <a href="https://github.com/lexeep/lexeep.github.io">repo</a> to see how it's built.</p>
+
+    </main>
+    <footer class="site-footer">
+
+  <hr class="footer-sep"/>
+
+
+  <div class="footer-top">
+    <div class="footer-pfp">
+      <img src=/assets/images/pfp.jpg alt="Abdulla Almansoori">
+    </div>
+
+    <nav class="footer-links">
+      <a href="/" class="footer-link">home</a>
+      <a href="/portfolio" class="footer-link">portfolio</a>
+    </nav>
+
+  </div>
+
+  <hr class="footer-sep"/>
+
+  <div class="footer-bottom">
+    <span class="footer-copy">&copy; 2026 Abdulla Almansoori</span>
+    <div class="footer-socials">
+      <a href="mailto:lexeep@proton.me" class="footer-email">lexeep@proton.me</a>
+      <a href="https://github.com/lexeep" class="footer-social-link" aria-label="github">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.165c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12 24 5.37 18.627 0 12 0z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script>
+    function toggleTheme() {
+      const root = document.documentElement;
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
+</body>
+</html>
