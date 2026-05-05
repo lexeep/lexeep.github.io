@@ -263,3 +263,68 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme="dark"]  .toggle-icon.moon { color: var(--fk-blue); }import "./flexoki.css";
 
 
+/* portfolio */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.portfolio-card {
+  border: 1px solid var(--fk-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.15s;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.portfolio-card:hover {
+  border-color: var(--fk-text);
+}
+
+.portfolio-card-title {
+  margin: 0;
+  font-size: 15px;
+  color: var(--fk-text);
+}
+
+.portfolio-card-desc {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--fk-muted);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.project-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.project-img {
+  width: 260px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.project-desc {
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .project-layout {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+}
