@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "./flexoki.css";
+
+/* ── Flexoki tokens ── */
+:root {
+  --fk-bg:         var(--flexoki-paper);
+  --fk-bg2:        var(--flexoki-50);
+  --fk-text:       var(--flexoki-black);
+  --fk-muted:      var(--flexoki-600);
+  --fk-border:     var(--flexoki-200);
+  --fk-sep:        var(--flexoki-300);
+  --fk-toggle-bg:  var(--flexoki-100);
+  --fk-toggle-dot: var(--flexoki-700);
+  --fk-blue: var(--flexoki-blue-600);
+  --fk-cyan: var(--flexoki-cyan-600);
+  --fk-yellow: var(--flexoki-yellow-600);
+
+}
+
+[data-theme="dark"] {
+  --fk-bg:         var(--flexoki-black);
+  --fk-bg2:        var(--flexoki-950);
+  --fk-text:       var(--flexoki-200);
+  --fk-muted:      var(--flexoki-500);
+  --fk-border:     var(--flexoki-850);
+  --fk-sep:        var(--flexoki-800);
+  --fk-toggle-bg:  var(--flexoki-900);
+  --fk-toggle-dot: var(--flexoki-150);
+  --fk-blue: var(--flexoki-blue-400);
+  --fk-yellow: var(--flexoki-yellow-400);
+}
+
+body {
+  background: var(--fk-bg);
+  color: var(--fk-text);
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight 400;
+  transition: background 0.2s, color 0.2s;
+}
+
+.page-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── Header ── */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 0 1.4rem;
+  border-bottom: none;
+}
+
+
+.header-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px ;
+  letter-spacing: -0.01em;
+}
+
+.header-name {
+  color: var(--fk-text);
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.header-name:hover,
+.header-page:hover {
+  color: var(--fk-cyan);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; /* normal */
+}
+
+.header-name:hover { color: var(--fk-cyan); }
+
+
+.header-sep { color: var(--fk-muted); user-select: none; }
+
+.header-page {
+  color: var(--fk-muted);
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+/* Footer */
+
+.footer-sep { 
+  margin: 2rem 0 1rem;
+  color: var(--fk-muted);
+
+  border: none;
+  border-top: 1px solid var(--fk-border);
+
+  user-select: none;
+}
+
+
+/* ── Toggle ── */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--fk-border);
+  border-radius: 20px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.theme-toggle:hover {
+  background: var(--fk-bg2);
+  border-color: var(--fk-sep);
+}
+
+.toggle-icon {
+  color: var(--fk-muted);
+  flex-shrink: 0;
+  transition: color 0.2s;
+  width: 17px;
+  height: 17px;
+}
+
+.toggle-track {
+  width: 31px;
+  height: 17px;
+  background: var(--fk-toggle-bg);
+  border-radius: 7px;
+  position: relative;
+  border: 1px solid var(--fk-border);
+  flex-shrink: 0;
+}
+
+.toggle-dot {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--fk-toggle-dot);
+  transition: left 0.2s;
+}
+
+[data-theme="dark"] .toggle-dot { left: 15px; }
+
+/* active icon highlight */
+[data-theme="light"] .toggle-icon.sun { color: var(--flexoki-yellow-600); }
+[data-theme="dark"]  .toggle-icon.moon { color: var(--fk-blue); }import "./flexoki.css";
+
+
