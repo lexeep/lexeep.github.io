@@ -8,7 +8,13 @@
     "title": "XYZ Logo",
     "slug": "xyz",
     "description": "A logo I designed using Inkscape."
+  },
+  {
+    "title": "Game UI",
+    "slug": "game-ui",
+    "description": "A fully working user interface for a game using lua."
   }
+
 
 
 ]

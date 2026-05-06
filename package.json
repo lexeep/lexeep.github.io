@@ -2,8 +2,10 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.5"
   },
-
   "scripts": {
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/lexeep.github.io/"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2"
   }
 }

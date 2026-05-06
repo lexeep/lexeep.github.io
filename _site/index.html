@@ -5,11 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon.png">
   <script>
     const saved = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+
+    document.documentElement.setAttribute(
+      'data-theme',
+      saved || 'dark'
+    );
   </script>
 </head>
 <body>
@@ -17,14 +22,13 @@
     <header class="site-header">
   <nav class="header-breadcrumb" aria-label="breadcrumb">
     <a href="/" class="header-name">Abdulla Almansoori</a>
-    <span class="header-sep" aria-hidden="true">/</span>
-    <a href="/" class="header-page">
-      Home
-    </a>
-
+    
+      <span class="header-sep" aria-hidden="true">/</span>
+      <a href="/" class="header-page">Home</a>
+    
   </nav>
   <button class="theme-toggle" id="theme-toggle" aria-label="toggle dark/light mode" onclick="toggleTheme()">
-    <svg class="toggle-icon sun" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg class="toggle-icon sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
       <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
       <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
@@ -33,20 +37,21 @@
     <div class="toggle-track" aria-hidden="true">
       <div class="toggle-dot"></div>
     </div>
-    <svg class="toggle-icon moon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg class="toggle-icon moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
     </svg>
   </button>
 </header>
 
     <main>
-      <h1>Hello World!</h1>
+      <h2>Hello World!</h2>
 <p>I'm Abdulla Almansoori, a university student with a passion for game developing, 3d modelling, and design.</p>
-<h2>About Me</h2>
+<h3>About Me</h3>
 <p>I've been tinkering with game development from a very young age, which grew into a strong passion for creating. From programming to designing things in photoshop to 3d modelling using blender. I really enjoy dipping into all aspects of game development, from building systems to designing visuals. I tend to lean towards a vibrant, stylized art style while staying adaptable to different settings. Check out <a href="/portfolio/">my portfolio!</a></p>
 
     </main>
     <footer class="site-footer">
+
 
   <hr class="footer-sep"/>
 
@@ -55,6 +60,9 @@
     <div class="footer-pfp">
       <img src=/assets/images/pfp.jpg alt="Abdulla Almansoori">
     </div>
+
+    
+    <em class="warning-text">This website is a work in progress.</em>
 
     <nav class="footer-links">
       <a href="/" class="footer-link">home</a>
