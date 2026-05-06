@@ -1,0 +1,46 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 0 1.4rem;
+  border-bottom: none;
+}
+
+.header-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px ;
+  letter-spacing: -0.01em;
+}
+
+.header-name {
+  color: var(--fk-text);
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.header-name:hover,
+.header-page:hover {
+  color: var(--fk-cyan);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; /* normal */
+}
+
+.header-name:hover { color: var(--fk-cyan); }
+
+
+.header-sep { color: var(--fk-muted); user-select: none; }
+
+.header-page {
+  color: var(--fk-muted);
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+

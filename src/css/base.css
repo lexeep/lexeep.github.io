@@ -1,0 +1,28 @@
+/* body global defaults */
+body {
+  background: var(--fk-bg);
+  color: var(--fk-text);
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight 400;
+  transition: background 0.2s, color 0.2s;
+}
+
+
+/* links global defaults*/
+
+a {
+  color: var(--fk-text);
+  transition: 0.15s;
+}
+
+a:hover {
+  color: var(--fk-cyan);
+  transition: 0.15s;
+}
+
+
+/* header global defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
