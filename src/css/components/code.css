@@ -1,6 +1,7 @@
 pre,
 code {
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 13.5px;
 }
 
 code {
@@ -18,6 +19,9 @@ pre {
   padding: 1.25rem;
   overflow-x: auto;
   margin: 1.5rem 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  tab-size: 2;
 }
 
 pre code {

@@ -12,8 +12,14 @@
   {
     "title": "Game UI",
     "slug": "game-ui",
-    "description": "A fully working user interface for a game using lua."
+    "description": "a fully working user interface for a game using lua."
+  },
+  {
+    "title": "Low Poly Collection",
+    "slug": "low-poly",
+    "description": " A collection of the models I've made."
   }
+
 
 
 
