@@ -67,7 +67,7 @@
   width: 90%;
   display: block;
   border-radius: 8px;
-  border: 1px solid var(--fk-border);
+  border: 2px solid var(--fk-border);
   margin: 1rem auto;
   max-width: 600px;
 }

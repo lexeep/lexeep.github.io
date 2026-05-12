@@ -12,13 +12,12 @@ A full UI system handling all aspects of [my other project.](blalba) Built with 
 
 ### Video
 
-<video src="/assets/videos/game-ui.mp4" controls autoplay muted loop playsinline class="project-video"></video>
+<video src="/assets/videos/game-ui.mp4" autoplay muted loop playsinline class="project-video"></video>
 
 
 ### Code Snippet
 
 This is a small snipet of the large codebase to showcase the systems used to make the interface functional. The purpose of this code is to handle the equipping or buying of items. The code has been slightly modified to make it easier to read and understand.
-
 
 ```lua
 local storeDeb = false

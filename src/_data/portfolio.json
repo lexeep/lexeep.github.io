@@ -15,11 +15,15 @@
     "description": "a fully working user interface for a game using lua."
   },
   {
+    "title": "Prop Hunt",
+    "slug": "prop-hunt",
+    "description": "A game based on the popular prop hunt format."
+  },
+  {
     "title": "Low Poly Collection",
     "slug": "low-poly",
     "description": " A collection of the models I've made."
   }
-
 
 
 
