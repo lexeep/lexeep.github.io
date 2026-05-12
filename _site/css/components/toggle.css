@@ -48,6 +48,5 @@
 
 /* active icon highlight */
 [data-theme="light"] .toggle-icon.sun { color: var(--flexoki-yellow-600); }
-[data-theme="dark"]  .toggle-icon.moon { color: var(--fk-blue); }import "./flexoki.css";
-
+[data-theme="dark"]  .toggle-icon.moon { color: var(--fk-blue); }
 

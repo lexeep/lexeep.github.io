@@ -4,7 +4,7 @@ body {
   color: var(--fk-text);
   margin: 0;
   font-family: 'DM Sans', sans-serif;
-  font-weight 400;
+  font-weight: 400;
   transition: background 0.2s, color 0.2s;
 }
 

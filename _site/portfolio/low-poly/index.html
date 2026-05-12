@@ -46,11 +46,43 @@
 
     <main>
       <h2>Low Poly Collection!</h2>
+<p>Whatever Whatever Whatever Whatever</p>
+<p><canvas id="canvas"></canvas></p>
+<script>
+  import * as THREE from 'three';
+  import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+  const canvas = document.getElementById('canvas');
+
+  const scene = new THREE.Scene();
+
+  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+  const renderer = new THREE.WebGLRenderer({
+    canvas: document.querySelector('#bg')
+  });
+  
+  renderer.setPixelRatio( window.devicePixelRatio );
+  renderer.setSize( window.innerWidth, window.innerHeight );
+  camera.position.setZ(30);
+
+  
+
+
+
+
+  const controls = new OrbitControls( camera, renderer.domElement );
+  controls.update();
+
+  renderer.render( scene, camera );  
+
+</script>
 
 
     </main>
     <footer class="site-footer">
 
+  <p align="center"><em class="warning-text">This website is a work in progress.</em></p>
 
   <hr class="footer-sep"/>
 
@@ -59,9 +91,6 @@
     <div class="footer-pfp">
       <img src=/assets/images/pfp.jpg alt="Abdulla Almansoori">
     </div>
-
-    
-    <em class="warning-text">This website is a work in progress.</em>
 
     <nav class="footer-links">
       <a href="/" class="footer-link">home</a>
