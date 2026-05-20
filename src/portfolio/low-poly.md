@@ -11,7 +11,7 @@ A small collection of some of the low-poly models I've made.
 <div class="canvas-wrapper">
   <canvas id="canvas"></canvas>
   <button id="dice-btn" src="">
-    <img src="/assets/icons/dice.svg" />
+    <img src="/assets/icons/dice.svg" style="display:none;" />
   </button>
 
   <div class="variants" id="variants"></div>
