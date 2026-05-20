@@ -1,3 +1,4 @@
+
 .site-header {
   display: flex;
   align-items: center;
@@ -13,6 +14,28 @@
   font-family: 'DM Sans', sans-serif;
   font-size: 18px ;
   letter-spacing: -0.01em;
+}
+
+@media (max-width: 480px) {
+  .header-breadcrumb {
+    font-size: 14px;
+  }
+
+  
+  .header-name {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-breadcrumb {
+    font-size: 10px;
+  }
+
+  
+  .header-name {
+    white-space: nowrap;
+  }
 }
 
 .header-name {
