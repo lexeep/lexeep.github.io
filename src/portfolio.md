@@ -2,7 +2,7 @@
 layout: base.njk
 title: Portfolio
 pageTitle: Portfolio
-pageSlug: portfolio
+pageSlug: portfolio/
 ---
 <div class="portfolio-grid">
   {% for project in portfolio %}

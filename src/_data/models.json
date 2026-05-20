@@ -1,0 +1,124 @@
+[
+  {
+    "model": "Barrel.glb",
+    "path": "/assets/models/Barrel.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Cabinet.glb",
+    "path": "/assets/models/Cabinets/Cabinet_big.glb",
+    "hasVariant": true,
+    "variants": [
+      { "name": "1", "path": "/assets/models/Cabinets/cabinet_small.glb" }
+    ],
+    "thumb": ""
+  },
+  {
+    "model": "Chair.glb",
+    "path": "/assets/models/Chair/blue_chair.glb",
+    "hasVariant": true,
+    "variants": [
+      { "name": "1", "path": "/assets/models/Chair/green_chair.glb" },
+      { "name": "2", "path": "/assets/models/Chair/red_chair.glb" }
+    ],
+    "thumb": ""
+  },
+  {
+    "model": "Chair_1.glb",
+    "path": "/assets/models/Chair_1.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Cone.glb",
+    "path": "/assets/models/Cone.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Container.glb",
+    "path": "/assets/models/Container.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Couch.glb",
+    "path": "/assets/models/Couch.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Crate.glb",
+    "path": "/assets/models/Crate.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Door.glb",
+    "path": "/assets/models/Door.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Drawers.glb",
+    "path": "/assets/models/Drawers/big_drawer.glb",
+    "hasVariant": true,
+    "variants": [
+      { "name": "1", "path": "/assets/models/Drawers/small_drawer.glb" }
+    ],
+    "thumb": ""
+  },
+  {
+    "model": "Heater.glb",
+    "path": "/assets/models/Heater.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Lamp.glb",
+    "path": "/assets/models/Lamp.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Monitor.glb",
+    "path": "/assets/models/Monitor.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Suitcase.glb",
+    "path": "/assets/models/suitcase.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  },
+  {
+    "model": "Truck.glb",
+    "path": "/assets/models/Truck/TruckTest.glb",
+    "hasVariant": true,
+    "variants": [
+      { "name": "1", "path": "/assets/models/Truck/Truck_gray.gltf" },
+      { "name": "2", "path": "/assets/models/Truck/Truck_yellow.glb" }
+    ],
+    "thumb": ""
+  },
+  {
+    "model": "TV.glb",
+    "path": "/assets/models/TV.glb",
+    "hasVariant": false,
+    "variants": [],
+    "thumb": ""
+  }
+]

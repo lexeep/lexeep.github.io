@@ -2,9 +2,7 @@
 layout: project.njk
 title: Xyz
 pageTitle: Xyz
-pageSlug: portfolio/xyz
-parentTitle: Portfolio
-parentSlug: portfolio
+pageSlug: portfolio/xyz/
 ---
 ## XYZ Logo
 <div class="project-layout">

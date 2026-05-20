@@ -2,9 +2,7 @@
 layout: project.njk
 title: Game UI
 pageTitle: Game UI
-pageSlug: portfolio/game-ui
-parentTitle: Portfolio
-parentSlug: portfolio
+pageSlug: portfolio/game-ui/
 ---
 ## Game User Interface
 

@@ -2,9 +2,7 @@
 layout: project.njk
 title: Prop Hunt
 pageTitle: Prop Hunt
-pageSlug: portfolio/prop-hunt
-parentTitle: Portfolio
-parentSlug: portfolio
+pageSlug: portfolio/prop-hunt/
 ---
 ## Prop Hunt
 

@@ -5,6 +5,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/favicon.png");
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/js");
+
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {

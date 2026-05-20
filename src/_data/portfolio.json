@@ -1,28 +1,33 @@
 [
   {
     "title": "lexeep.github.io",
-    "slug": "website",
+    "slug": "website/",
     "description": "The website used to host my portfolio."
   },
   {
     "title": "XYZ Logo",
-    "slug": "xyz",
+    "slug": "xyz/",
     "description": "A logo I designed using Inkscape."
   },
   {
     "title": "Game UI",
-    "slug": "game-ui",
+    "slug": "game-ui/",
     "description": "a fully working user interface for a game using lua."
   },
   {
     "title": "Prop Hunt",
-    "slug": "prop-hunt",
+    "slug": "prop-hunt/",
     "description": "A game based on the popular prop hunt format."
   },
   {
     "title": "Low Poly Collection",
-    "slug": "low-poly",
+    "slug": "low-poly/",
     "description": " A collection of the models I've made."
+  },
+  {
+    "title": "Jojo Models",
+    "slug": "jojo-models/",
+    "description": "Models created using blender."
   }
 
 
