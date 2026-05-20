@@ -7,7 +7,8 @@ fetch("/assets/icons/dice.svg")
   .then((svg) => {
     const fixed = svg.replace(/fill="[^"]*"/g, 'fill="currentColor"');
     document.getElementById("dice-btn").innerHTML = fixed;
-  });
+  })
+  .catch((err) => console.error("dice svg", err));
 
 const list = document.querySelector(".model-list");
 
