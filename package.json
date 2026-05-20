@@ -4,7 +4,7 @@
     "@11ty/eleventy-plugin-vite": "^8.0.0-alpha.2"
   },
   "scripts": {
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/lexeep.github.io/"
+    "build-ghpages": "npx @11ty/eleventy"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
