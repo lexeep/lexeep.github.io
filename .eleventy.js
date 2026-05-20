@@ -11,6 +11,7 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
+      publicDir: "public",
       server: {
         middlewareMode: false,
       },
