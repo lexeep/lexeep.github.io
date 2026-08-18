@@ -1,0 +1,38 @@
+.item-row {
+  display: grid;
+  grid-template-columns: 125px 1fr; 
+
+  column-gap: 1.5rem;
+  align-items: start;
+}
+
+.date {
+  color: var(--fk-muted);
+  margin-right: auto;
+}
+
+
+.title, .description {
+  margin-left: 0;
+  padding-left: 0;
+
+  font-size: 1.1rem;
+}
+
+.content .description {
+  margin-top: 0.5rem;
+  color: var(--fk-muted);
+  font-size: 0.95rem;
+}
+
+.now-sep { 
+  margin: 0rem 0 1rem;
+  color: var(--fk-muted);
+
+  border: none;
+  border-top: 1px solid var(--fk-border);
+
+  transition: 0.15s;
+
+  user-select: none;
+}
