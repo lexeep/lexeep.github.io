@@ -17,10 +17,11 @@
 .model-list {
   display: flex;
   gap: 0.5rem;
-  overflow-x: auto;
+  overflow-x: scroll;
   scrollbar-width: 1px;
   margin-top: 0.75rem;
   justify-content: start;
+  white-space: nowrap;
   
 }
 
@@ -40,7 +41,6 @@
 }
 
 .model-list::-webkit-scrollbar {
-  display: none;
 }
 
 .model-card {
