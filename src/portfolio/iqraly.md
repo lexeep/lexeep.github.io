@@ -4,6 +4,6 @@ title: Iqraly
 pageTitle: Iqraly
 pageSlug: portfolio/iqraly/
 ---
-<svg src="assets/icons/io.github.lexeep.Iqraly.svg" align="left" style="margin-right:8px"/>
+<img src="assets/icons/io.github.lexeep.Iqraly.svg" align="left" style="margin-right:8px"/>
 
 # Iqraly
