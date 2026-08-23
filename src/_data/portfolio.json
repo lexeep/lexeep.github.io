@@ -2,27 +2,31 @@
   {
     "title": "lexeep.github.io",
     "slug": "website/",
-    "description": "The website used to host my portfolio."
+    "description": "The website used to host my portfolio"
   },
   {
-    "title": "XYZ Logo",
-    "slug": "xyz/",
-    "description": "A logo I designed using Inkscape."
+    "title": "Iqraly",
+    "slug": "iqraly/",
+    "description": "A quran app built for GNOME"
   },
   {
     "title": "Game UI",
     "slug": "game-ui/",
-    "description": "a fully working user interface for a game using lua."
+    "description": "a fully working user interface for a game using lua"
   },
   {
     "title": "Prop Hunt",
     "slug": "prop-hunt/",
-    "description": "A game based on the popular prop hunt format."
+    "description": "A game based on the popular prop hunt format"
   },
   {
     "title": "Low Poly Collection",
     "slug": "low-poly/",
-    "description": " A collection of the models I've made."
+    "description": " A collection of the models I've made"
+  },
+  {
+    "title": "XYZ Logo",
+    "slug": "xyz/",
+    "description": "A logo I designed using Inkscape"
   }
-
 ]
